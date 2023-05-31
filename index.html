@@ -38,8 +38,8 @@
             <br>
             <h4 class="text ">Triangle</h4>
             <p>Area (A) = 0.5 x a x h</p>
-            <span>a = <input class="input" type="number" placeholder="cm"> </span> <span>b = <input class="input " type="number" placeholder="cm"></span> <br>
-            <button class="btn btn-secondary "><a href="#">Calculate</a></button>
+            <span>a = <input id="Ta" class="input" type="number" placeholder="cm"> </span> <span>h = <input id="Tb" class="input " type="number" placeholder="cm"></span> <br>
+            <button id="Tbtn"  class="btn btn-secondary "><a href="#">Calculate</a></button>
         </div>
 
         <div class="single col-md-3 ">
@@ -48,8 +48,8 @@
             <br>
             <h4 class="text ">Rectangle</h4>
             <p>Area (A) = W x I</p>
-            <span>a =<input class="input" type="number" placeholder="cm"> </span> <span>b = <input class="input " type="number" placeholder="cm"></span> <br>
-            <button class="btn btn-secondary "><a href="#">Calculate</a></button>
+            <span>w =<input class="input 2" type="number" placeholder="cm"> </span> <span>i = <input class="input 22" type="number" placeholder="cm"></span> <br>
+            <button id="button2" class="btn btn-secondary "><a href="#">Calculate</a></button>
         </div>
 
         <div class="single col-md-3">
@@ -58,8 +58,8 @@
             <br>
             <h4 class="text ">Parallelogram</h4>
             <p>Area (A) = b x h </p>
-            <span>a = <input class="input" type="number" placeholder="cm"> </span> <span>b = <input class="input " type="number" placeholder="cm"></span> <br>
-            <button class="btn btn-secondary "><a href="#">Calculate</a></button>
+            <span>a = <input class="input 3" type="number" placeholder="cm"> </span> <span>b = <input class="input 33" type="number" placeholder="cm"></span> <br>
+            <button id="button3" class="btn btn-secondary "><a href="#">Calculate</a></button>
         </div>
 
        
@@ -75,8 +75,8 @@
         <br>
         <h4 class="text ">Triangle</h4>
         <p>Area (A) = 0.5 x a x h</p>
-        <span>a = <input class="input" type="number" placeholder="cm"> </span> <span>b = <input class="input " type="number" placeholder="cm"></span> <br>
-        <button class="btn btn-secondary "><a href="#">Calculate</a></button>
+        <span>a = <input  class="input" type="number" placeholder="cm"> </span> <span>h = <input  class="input " type="number" placeholder="cm"></span> <br>
+        <button   class="btn btn-secondary "><a href="#">Calculate</a></button>
     </div>
 
     <div class="single col-md-3 ">
@@ -112,9 +112,11 @@
 
 <div class="result col-lg-3">
     <h1>Calculated Result......</h1>
-
-    <h5>Triangle result = </h5>
-    <h5>Rectangle result = </h5>
+    <h5 id="ts1"></h5>
+    <h5 id="ts2"></h5>
+    <h5 id="ts3"></h5>
+    <h5 id="ts4"></h5>
+   
     <h5>Parallelogram result = </h5>
 </div>
 
